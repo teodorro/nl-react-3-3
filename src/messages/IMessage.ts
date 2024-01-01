@@ -1,7 +1,7 @@
 import ISender from "./ISender";
 
 export default interface IMessage {
-  id: number;
+  id: string;
   from: ISender;
   type: string;
   time: string;

@@ -11,6 +11,9 @@ body {
   color: white;
 }
 
+ul {
+  list-style-type: none;
+}
 
 .container {
   margin: 0 auto;
@@ -208,3 +211,24 @@ body {
   clear: both;
   height: 0;
 }
+
+.dot {
+  height: 0.66em;
+  width: 0.66em;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1px 2px 0 1px;
+}
+.dot.message-dot{
+  background-color: #86BB71;
+}
+.dot.response-dot{
+  background-color: #94C2ED;
+}
+.dot.typing-dot{
+  background-color: #add19f;
+}
+.dot.typing2-dot{
+  background-color: #d3e7cc;
+}
+

@@ -28,12 +28,12 @@ function App() {
     time: '10:20',
     text: 'Нет, всё прошло гладко. Очень хочу показать всё команде.'
   }
-  // , {
-  //   id: 'chat-5-1094',
-  //   from: { name: 'Виктор' },
-  //   type: 'typing',
-  //   time: '10:31'
-  // }
+  , {
+    id: 'chat-5-1094',
+    from: { name: 'Виктор' },
+    type: 'typing',
+    time: '10:31'
+  }
 ];
 
   return (
